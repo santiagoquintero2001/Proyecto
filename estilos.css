@@ -1,0 +1,41 @@
+.parra {
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    color: #220664;
+}
+
+footer{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.title2{
+    font-weight: bold;
+}
+
+.pag2{
+    font-weight: bold;
+    color: firebrick;
+}
+
+.text2{
+    font-weight: italic;
+    color: black;
+    font-family: 'Sriracha', cursive;
+}
+
+.subtitle{
+    font-weight: bold;
+    color: crimson;
+}
+
+.title3{
+    font-weight: bold;
+    color: brown;
+}
+
+.text3{
+    color: darkgreen;
+    font-family: 'Itim', cursive;
+    font-weight: italic;
+}
