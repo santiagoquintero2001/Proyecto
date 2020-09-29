@@ -6,29 +6,94 @@
     <title>Chips de chocolate</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <h1 class="pag2">Historia galletas chips de chocolate</h1>
-        <hr>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h1 class="navbar-brand">The Good Cookies</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Galletas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="pagina1.html">Red Velvet</a>
+                      <a class="dropdown-item" href="pagina2.html">Chips de chocolate</a>
+                    </div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contáctanos
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=573212496568">WhatsApp</a>
+                    <a class="dropdown-item" href="https://api.whatsapp.com/send?phone=573212496568">Instagram</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registro.html">Registro</a>
+                  </li>
+               
+              </ul>
+            </div>
+          </nav>
     </header>
 
     <main>
-        <h2 class="title2">Biografía Ruth Wakefield</h2>
-        <img src="img/ruth.jpg" alt="ImagenRuth">
-        <p class="text2">Su nombre es Ruth Wakefield; fue entre muchas cosas una dietista, autora, educadora y chef americana mayormente reconocida por ser la creadora de la primera galleta con chispas de chocolate.</p>
-        <p class="text2">Pues esta receta de 83 años de existencia, surgió gracias a Ruth Wakefield; Su origen está lleno de mitos urbanos, desde la accidental caída de una chocolate a la mezcla, hasta el desabastecimiento de lo que era el ingrediente principal de sus galletas, sin embargo, su verdadero origen va ligado a su profesionalismo como repostera, del cual, de la mezcla de una galleta convencional más el chocolate amargo nestle, surge la galleta con chips de chocolate, un clásico que todos disfrutamos.</p>
-        <audio src="img/audioruth.mp3" controls="controls">AudioRuth</audio>
-        <hr>
-        <p class="text2">Una galleta con pepitas de chocolate es una galleta que se originó en los Estados Unidos con pepitas de chocolate como ingrediente distintivo. La receta tradicional combina una masa a base de mantequilla y azúcar moreno o blanco con pepitas de chocolate semi-dulces.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title2">Biografía Ruth Wakefield</h2>
+                    <img src="img/ruth.jpg" alt="ImagenRuth">
+                    <hr>
+                </div>
+            </div>
+            <div class="row color3">
+                <div class="col-6">
+                    <p class="text2">Su nombre es Ruth Wakefield; fue entre muchas cosas una dietista, autora, educadora y chef americana mayormente reconocida por ser la creadora de la primera galleta con chispas de chocolate.</p>
+                    <p class="text2">Pues esta receta de 83 años de existencia, surgió gracias a Ruth Wakefield; Su origen está lleno de mitos urbanos, desde la accidental caída de una chocolate a la mezcla, hasta el desabastecimiento de lo que era el ingrediente principal de sus galletas, sin embargo, su verdadero origen va ligado a su profesionalismo como repostera, del cual, de la mezcla de una galleta convencional más el chocolate amargo nestle, surge la galleta con chips de chocolate, un clásico que todos disfrutamos.</p>
+                </div>
+                <div class="col-6">
+                    <audio src="img/audioruth.mp3" controls="controls">AudioRuth</audio>
+                    <p class="text2">Una galleta con pepitas de chocolate es una galleta que se originó en los Estados Unidos con pepitas de chocolate como ingrediente distintivo. La receta tradicional combina una masa a base de mantequilla y azúcar moreno o blanco con pepitas de chocolate semi-dulces.</p>
+                </div>
+            </div>
+            <hr>
+        </div>
 
     </main>
 
     <footer>
-        <hr>
-        <p>Santiago Quintero</p>
-        <p>Sabaneta, Colombia</p>
-        <p>2020</p>
+        <div class="container footer1">
+            <div class="row">
+                <div class="col-6">
+                    <p>Santiago Quintero</p>
+                    <p>Sabaneta, Colombia</p>
+                    <p>2020</p>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/santiago_qq/">Ir a Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=573212496568">Ir a WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

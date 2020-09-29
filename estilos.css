@@ -4,9 +4,24 @@
     color: #220664;
 }
 
-footer{
+.color{
+    background-color: rgba(248, 247, 198, 0.979);
+}
+
+.color2{
+    background-color: azure;
+}
+
+.color3{
+    background-color: bisque;
+}
+ .color4{
+     background-color: blanchedalmond;
+ }
+ 
+.footer1{
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: #ece9f3;
 }
 
 .title2{
@@ -31,11 +46,11 @@ footer{
 
 .title3{
     font-weight: bold;
-    color: brown;
+    color: rgb(14, 1, 1);
 }
 
 .text3{
-    color: darkgreen;
+    color: rgb(3, 51, 3);
     font-family: 'Itim', cursive;
     font-weight: italic;
 }
