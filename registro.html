@@ -55,13 +55,13 @@
                     <hr>
                     <form>
                         <label for="nombreUsuario">Nombre: </label>
-                        <input type="text" placeholder="Santiago" id="nombreUsuario" name="nombreUsuario">
+                        <input type="text" class="form-control" placeholder="Santiago" id="nombre" name="nombreUsuario">
                         <label for="contraseñaUsuario">Contraseña: </label>
-                        <input type="password" placeholder="Contraseña" id="contraseñaUsuario" name="contraseñaUsuario">
+                        <input type="password" class="form-control" placeholder="Contraseña" id="contraseña" name="contraseñaUsuario">
                         <label for="cedulaUsuario">Cédula: </label>
-                        <input type="number" placeholder="Nro cédula" id="cedulaUsuario" name="cedulaUsuario">
+                        <input type="number" class="form-control" placeholder="Nro cédula" id="cedula" name="cedulaUsuario">
                         <label for="correoUsuario">Correo electrónico: </label>
-                        <input type="email" placeholder="email" id="correoUsuario" name="correoUsuario">
+                        <input type="email" class="form-control" placeholder="email" id="correo" name="correoUsuario">
                         <label for="">Sexo: </label>
                         <label for="sexoMUsuario">Masculino </label>
                         <input type="radio" id="sexoMUsuario" name="sexoMUsuario">
@@ -70,7 +70,7 @@
                         <p>Gracias por su visita a nuestra página web y por su interés en nuestra empresa. Entendemos la privacidad de los datos como una característica de calidad orientada al cliente. La protección de sus datos personales y la protección de sus derechos personales son importantes para nosotros.</p>
                         <p>Aceptar términos y condiciones: </p>
                         <input type="checkbox">
-                        <input type="submit">
+                        <button type="submit" class="btn btn-primary mt-3" id="boton1">ENVIAR</button>
                         <hr>
                     </form>
                 </div>
@@ -100,6 +100,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="controladorRegistro.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
